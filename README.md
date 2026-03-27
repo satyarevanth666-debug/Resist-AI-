@@ -36,6 +36,7 @@ ResistAI uses machine learning models trained on medical datasets to:
 ---
 
 ResistAI/
+|
 │
 ├── app/                  
 │   └── app.py            # Main Streamlit app
