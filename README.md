@@ -36,28 +36,28 @@ ResistAI uses machine learning models trained on medical datasets to:
 ---
 
 ResistAI/
-|
 │
-├── app/                  
-│   └── app.py            # Main Streamlit app
+├── app/
+│   └── app.py                 # Main Streamlit application
 │
-├── data/                 
-│   ├── primary.xlsx      
-│   ├── secondary.csv     
-│   └── cleaned_data.csv  
+├── data/
+│   ├── primary.xlsx          # Original dataset 1
+│   ├── secondary.csv         # Original dataset 2
+│   └── cleaned_data.csv      # Processed dataset
 │
-├── models/               
-│   └── model.pkl         
+├── models/
+│   └── model.pkl             # Trained ML model
 │
-├── src/                  
-│   ├── preprocess.py     
-│   ├── train.py          
-│   ├── recommend.py      
-│   └── visualize.py      
+├── src/
+│   ├── preprocess.py         # Data cleaning & preprocessing
+│   ├── train.py              # Model training pipeline
+│   ├── recommend.py          # Recommendation engine
+│   └── visualize.py          # Charts & analytics
 │
-├── outputs/              
-│   └── metrics.json      
+├── outputs/
+│   └── metrics.json          # Model evaluation results
 │
-├── requirements.txt      
-├── README.md             
-└── .gitignore
+├── requirements.txt          # Dependencies
+├── README.md                 # Project documentation
+└── .gitignore                # Ignore unnecessary files
+
