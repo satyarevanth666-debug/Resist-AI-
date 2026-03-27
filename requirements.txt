@@ -1,9 +1,10 @@
-numpy
-pandas
-scikit-learn
-xgboost
-shap
-plotly
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+xgboost==2.0.3
+shap==0.44.1
+plotly==5.20.0
 streamlit==1.32.0
-openpyxl
+openpyxl==3.1.2
 altair==4.2.2
+pillow==10.2.0
