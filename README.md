@@ -34,7 +34,7 @@ ResistAI uses machine learning models trained on medical datasets to:
 - **Model Storage:** Pickle (`.pkl`)  
 
 ---
-
+```
 ResistAI/
 │
 ├── app/
@@ -60,4 +60,4 @@ ResistAI/
 ├── requirements.txt          # Dependencies
 ├── README.md                 # Project documentation
 └── .gitignore                # Ignore unnecessary files
-
+```
